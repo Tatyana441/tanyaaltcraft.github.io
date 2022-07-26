@@ -1,1 +1,0 @@
-importScripts('https://pxl.altcraft.tatyana-ivleva.lan:80/service-worker.js?id=MXwxNg..');
