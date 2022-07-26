@@ -1,1 +1,0 @@
-importScripts('https://pxl.tatyana-ivleva.dev.altkraft.com/service-worker.js?id=MXwxOQ..');
