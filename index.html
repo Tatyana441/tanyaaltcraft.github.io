@@ -3,7 +3,30 @@
 		<head>
 		    <meta charset="UTF-8">
 		    <title>Title</title>
+		    		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		    <meta charset="UTF-8">
+		    <title>Title</title>
 		    <script src="https://pxl.tatyana-ivleva.dev.altkraft.com:80/ak_container.js?id=MXwxOA.." ></script>
+		</head>
+		<body>
+		    <button id="init_sub">Подписаться на уведомления</button>
+		<script>
+
+		    document.getElementById('init_sub').addEventListener('click', function() { // По клику на кнопку..
+		    try {
+			var akPush = new AKPush();
+			
+			akPush.initSubscription({ email: 'tes@mail.ru' }) // ..показать форму подписки
+			}
+		    catch (e) {
+			console.log(e); // Или записать ошибку в консоль браузера
+			}
+		    });
+		</script>
+		</body>
+		</html>
 		</head>
 		<body>
 		    <button id="init_sub">Подписаться на уведомления</button>
